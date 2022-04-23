@@ -1,0 +1,16 @@
+@media (aspect-ratio:1/1){/*dessa forma as configuraçoes so entrara em vigor quando a proporçao da tela estiver 1 pra 1, ou seja um quadrado perfeito.*/
+    body{
+        background-color: #ff0000;
+    }
+}
+@media (min-aspect-ratio:4/2){/*dessa forma a largura deve ser o dobro do tamanho da altura....largura/altura*/
+    body{
+        background-color: #00ff55;
+    }
+}
+@media (max-aspect-ratio:1/2){/*dessa forma a altura deve ter o dobro da largura par aplicar as definiçoes.*/
+    body{
+        background-color: #5900ff;
+    }
+}
+/*Das alternativas abaixo, qual está correta se tratando do uso do Aspect-radio no @media ?O aspect-radio é usado para mudar as propriedades de acordo com a escala de tamanho do navegador que o usuário está acessando a página.*/

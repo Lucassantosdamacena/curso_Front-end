@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>INPUT.TYPE.FILE</title>
+        <link rel="stylesheet" href="estilo.input,type.file.css"/>
+    </head>
+    <body>
+        <form action="" method="post" enctype="multipart/form-data"><!--enctype ser para encriptar o formulario,para ser convertido em baites-->
+            <input type="hidden" name="country" value="BR">
+            <fieldset>
+                <legend>DADOS PESSOAIS</legend>
+                <label>
+                    Primeiro Nome:
+                    <br/>
+                    <input type="text" name="nome">
+                </label>
+                <br/>
+                <label>
+                    Sobrenome:
+                    <br/>
+                    <input type="text" name="sobrenome">
+                </label>
+                <br/>
+                <label>
+                    E-mail:
+                    <br/>
+                    <input type="email" name="e-mail">
+                </label>
+                <br/>
+                <label>
+                    Data de Nascimento:
+                    <br/>
+                    <input type="date" name="data_nascimento">
+                </label>
+                <br/>
+                <label>
+                    Foto:
+                    <br/>
+                    <input type="file" name="foto" accept="image/*"><!--serve para o usuario enviar um arquivo, accept é para definir qual o tipó de arquivo ele poderá enviar, para foto image/*,para pdf application/pdf,que é o mimi tape do arquivo especifico.-->
+                </label>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>DADOS PROFISSIONAIS</legend>
+                <label>
+                    Nome da Empresa:
+                    <br/>
+                    <input type="text" name="nome_empresa">
+                </label>
+                <br/>
+                <label>
+                    Cargo na Empresa:
+                    <br/>
+                    <input type="text" name="cargo_empresa">
+                </label>
+            </fieldset>
+            <input type="submit" name="enviar" id="">
+        </form>
+    </body>
+</html>

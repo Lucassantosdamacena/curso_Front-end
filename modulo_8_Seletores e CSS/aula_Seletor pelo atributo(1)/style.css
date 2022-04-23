@@ -1,0 +1,22 @@
+input,a{
+    display: block;/*para todos ficarem um abaixo do outro*/
+}
+/*selação por atributo*/
+[required]{
+    background-color: #ffff00;
+}
+
+/*pode também combinar uma tag com um atributo,um id ou class com atributo*/
+input[required]{
+    background-color: #ff0000;
+}
+
+/*para selecionar pelo type especifico*/
+input[type=text]{
+    background-color: #696969;
+}
+
+/*para selecionar atraves do name=""*/
+input[name="senha"]{
+    background-color: #2f4f4f;
+}

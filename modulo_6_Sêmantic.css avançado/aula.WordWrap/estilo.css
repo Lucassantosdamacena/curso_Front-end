@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.exemplo{
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    word-wrap: break-word;/*para quebrar o texto ou palavra de forma a bcaber apenas dentro do bloco,*/
+}
+/*Caso o texto que uma determinada div possua estoure o comprimento dela, pelo tamanho do texto, que propriedade no CSS podemos utilizar para consertar isso?
+word-wrap: break-word.*/

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+
+    font-size: 18PX;
+}
+.botao {
+    background-color: #0000cd;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow:10px 10px 5px #888888;
+}
+.botao:hover{
+    background-color: #00bfff;
+    border: 3px solid #000000;
+    color: #0000cd;
+    box-shadow:10px 10px 5px #0000cd;
+}

@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem_perfil{
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 35px;  
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+.imagem_menu{
+    width: 30px;
+}
+#imagens,
+#gmail{
+    margin-right: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+}
+#conteudo{
+    width: 100%;
+    height: 350px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.logo_imagem{
+    width: 400px;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_pesquis{
+    width: 400px;
+    height: 40px;
+    border: 0px solid  #fff;
+    font-size: 17px;
+    color: #000;
+    text-transform: none;
+    outline: none;/*para quando selecionar o input na aparecer as bordas*/
+
+}
+#pesquisa_voz{
+    width: 20px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+}
+.microfone{
+    width: 15px;
+    margin-top: 3px;
+}
+#abrir_teclado{
+    background-color: #fff;
+    border: none;
+}
+.teclado{
+    width: 30px;
+    margin-right: 5px;
+}
+#botao_pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botao_pesquisar1,
+.botao_pesquisar2{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+.botao_pesquisar2{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#rodape{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background-color: #d3d3d3;
+}
+.rodape_br{
+    border-bottom: 2px solid #ccc;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.rodape_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+/*responsividade*/
+@media (max-width:500px){
+    #cabecalho{
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px
+    }
+    
+    .imagem_perfil{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #ccc;  
+        margin-top: 5px;
+    }
+    
+    #menu{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .imagem_menu{
+        width: 30px;
+    }
+    #imagens,
+    #gmail{
+        margin-left: 10px;
+        margin-top: 14px;
+        font-weight: bold;
+    }
+    
+    .container{
+        background-color: #fff;
+        width: 100%;
+        height: 400px;
+    }
+    #conteudo{
+        width: 100%;
+        height: 340px;
+        background-color: #fff;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .logo_imagem{
+        width: 200px;
+    }
+    #input{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        border: 1px solid #000;
+        border-radius: 20px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input_pesquis{
+        width: 200px;
+        height: 40px;
+        border: 0px solid  #fff;
+        font-size: 17px;
+        color: #000;
+        text-transform: none;
+        outline: none;/*para quando selecionar o input na aparecer as bordas*/
+    
+    }
+    #pesquisa_voz{
+        width: 10px;
+        height: 30px;
+        border: none;
+        background-color: #fff;
+    }
+    .microfone{
+        width: 15px;
+        margin-top: 3px;
+    }
+    #abrir_teclado{
+        background-color: #fff;
+        border: none;
+    }
+    .teclado{
+        width: 30px;
+        margin-right: 5px;
+    }
+    #botao_pesquisa{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .botao_pesquisar1,
+    .botao_pesquisar2{
+        width: 131px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: normal;
+    
+    }
+    .botao_pesquisar2{
+        margin-left: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    #rodape{
+        width: 100%;
+        height: 230px;
+        display: block;
+        justify-items: left;
+        margin-top: 1px;
+         
+    }
+    .rodape_br{
+        border-bottom: 2px solid #ccc;
+        height: 40px;
+        display: flex;
+        margin-left: 10px;
+        font-size: 15px;
+        margin-top: auto;
+        margin-bottom: auto;    
+    }
+    .rodape_br a{
+        margin-top: 10px;
+    }
+    .rodape_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rodape_2 a{
+        margin-top: 10px;
+    }
+
+}
+ 

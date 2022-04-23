@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 17px;
+} 
+#containe{
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+.cabecalho{
+    width: 70%;
+    height: 60px;
+    background-color: #000;
+    float: left;
+    margin-left:30px;
+}
+
+/*formataçao da imagens dos cabeçalho*/
+img{
+    width: 15px;
+    background-color: #000;
+    color: #F5F5F5;
+    margin-top: 10px;
+    float: right;
+}
+.twitter{
+    margin-left: 25px;
+    width: 28px;
+}
+.gmais{
+    margin-left: 25px;
+    width: 25px;
+}
+.instagram{
+    margin-left: 25px;
+    width: 25px;
+}
+.linkedin{
+    margin-left: 25px;
+    width: 25px;
+}
+.github{
+    margin-left: 25px;
+    width: 25px;
+}
+/*imagem de logo e nome nome ao lado do logo*/
+.logo{
+    float: left;
+    margin-left: 100px;
+    width: 28px;
+}
+h3{
+    color: #cdcdcd;
+    margin: 10px;
+    font-weight: normal;
+}
+#logo{
+    text-decoration: none;
+}
+#imagem{  
+    margin-right: 100px;
+    padding: 10px;
+}
+
+/*conteudo da pagina*/
+.principal{
+    
+    height: 300px;
+    background-color: #00ffff;
+    width: 70%;
+    margin-left: 30px;
+    float: left;
+    
+    
+}
+video{
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 3px solid #F5F5F5;
+    float: left;
+}
+
+#textoprincipal{
+    height: 200px;
+    width: 450px;
+    float: left;    
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+#titulo_texto{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto_principal{
+    font-size: 12px;
+    color: #fff;
+}
+
+#carrinho{
+    height: 40px;
+    width: 150px;
+    background-color: #8fbc8f;
+    border-radius: 10px;
+}
+.carrinho{
+    width: 30PX;
+    float: left;
+    margin-left: 20PX;
+    margin-top: 5PX;
+    background-color: #F5F5F5;
+    border-radius: 10PX;
+}
+h6{
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-weight: normal;
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.rodape{
+    height: 300px;
+    width: 70%;
+    margin-left: 30px;
+    clear: both;
+    background-color: #F5F5F5;
+}
+.final_texto{
+    width: 50%;
+    height: 70px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 15px;
+    margin-left: 30%;
+    color: #696969;
+    font-style:italic;
+}
+#texto_secundario{
+    margin-left: 25%;
+    font-size: 10px;
+    color: #ccc;
+    font-size: 10px;
+
+}
+#separar{
+    height: 10px;
+    width: 70%;
+    margin-left: 30px;
+    clear: both;
+}
+
+
+.mapa{
+    float: left;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-left: 80px;
+}
+#mapa{
+    width: 90px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+#textomulti{
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#texto_mapa{
+    color: #ccc;
+}
+
+
+
+.clear{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-left: 80px;
+
+}
+#clea{
+    width: 90px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+#textoclea{
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    clear: both;
+    margin-left: 50px;
+}
+#text_clea{
+    color: #ccc;
+}
+.easy{
+    float: right;
+    width: 200px;
+    height: 100px;
+    margin-right: 80px;
+
+}
+#easy_image{
+    width: 60px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 70px;
+}
+#textoeasy{
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    clear: both;
+    margin-left: 30px;
+}
+#text_easy{
+    color: #ccc;
+    margin-left: 10px;
+}
+#propaganda{
+    background-color: #696969;
+    float:right;;
+
+    margin-right: 33px;
+    height: 360px;
+    width: 300px;
+}
+#propaganda2{
+    background-color: #696969;
+    float:right;
+    height: 10px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+footer{
+    height: 100px;
+    width: 95%;
+    background-color: #000;
+    margin-left: 30px;
+    clear: both;
+}
+address{
+    color: #F5F5F5;
+    margin-left: 40%;
+    float: left;
+    margin-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>TAG LABEL</title>
+        <link rel="stylesheet" href="estilo.label.css"/>
+    </head>
+    <body>
+        <!--o label básicamente é usado quando se quer defini um titulo para um campo um input ou um textarea-->
+        <label>nome completo:</label><br/><!--esse é o uso básico dpo label. mas dessa forma o usuario precisa clicar no campo para digitar.-->
+        <input type="text"/>
+
+        <br/>
+        <br/>
+        <br/> 
+
+        <label for="nome">nome completo:</label><!-- dessa forma quando o usuario clicar no titulo do campo ele podera digitar ou ja marcará tal opçao. o (id dar um nome para o input e o for especifica que o label e para o aquele id.)-->
+        <br/>
+        <input type="text" id="nome"/>
+        <br/>
+        <br/>
+        <input type="checkbox" id="teste"/>
+        <label for="teste">eu aceito os termos de serviços</label>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+        <!--dessa outra forma é a mais usada e funciona do mesmo jeito da opção anterior porém sem precisar de id e do for apenas identando-->
+        <label>nome completo:
+            <br/>
+            <input type="text"/>
+            <br/>
+        </label>
+
+
+          <!--dessa outra forma é a mais usada e funciona do mesmo jeito da opção anterior porém sem precisar de id e do for apenas identando-->
+        <br/>
+        <label>
+        <input type="checkbox"/>
+        eu aceito os termos de serviços
+        </label>
+    </body>
+</html>

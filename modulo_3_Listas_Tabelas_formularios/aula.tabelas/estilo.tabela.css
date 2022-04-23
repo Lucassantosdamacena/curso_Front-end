@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+table{
+    width: 600px;/*para definir uma largura*/
+    border: 2px solid #000000;/*para defini uma area*/ 
+
+}
+td{
+    border: 2px solid #000000;/*para defini uma area*/ 
+}
+table thead{
+    background-color: #ccc;/*para dar uma cor de fundo*/
+
+}
+table tbody{
+    background-color: ;
+}
+th, td{
+    padding: 10px;/*distancia entre o conteudo e sua bordas*/
+    text-align: left;/*para alinha os itens o texto*/
+}
+/*para quando passar o mause por cima de uma linha da tabela ela fique de uma determina cor*/
+tbody tr:hover{
+    background-color: red;
+}
+tbody td{
+    border-bottom: 1px solid #ccc;/*para aplicar o efeito apenas na parte de baixo da borda*/
+}
+
+/*para aplicar um certo efeito apenas em linhas impares ou pares*/
+tbody tr:nth-child(even){
+    background-color: #eee;
+}

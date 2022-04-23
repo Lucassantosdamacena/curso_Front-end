@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+.balao,
+.balao2,
+.balao3,
+.balao4,
+.balao5{
+    background-color: blue;
+    display: inline-block;/*para apenas o sepaço do texto*/
+    color: white;
+    padding: 20px;
+    border-radius: 20px
+}
+
+/*para colocar uma seta embaixo do balao*/
+.balao::after {
+    content: "";
+    /*width: 20px;
+    height: 20px;
+    background-color:blue;*/
+    display: block;/*para ele conseguir aparecer*/
+    position: absolute;/*para tirar  de dentro do balao ou div ficando flutuante*/
+    margin-top: 20px;/*para ele sair totalment de dentro deo balão depois que tiver flutuante*/
+
+    /*para dar uma forma*/
+    border: 20px solid;
+    border-color:  blue green red black;
+}
+
+.balao2::after {
+    content: "";
+   display: block;
+    position: absolute;
+   margin-top: 20px;
+      border: 20px solid;
+      border-color: blue blue transparent transparent;
+  }
+
+  .balao3::after {
+    content: "";
+   display: block;
+    position: absolute;
+   margin-top: 20px;
+      border: 20px solid;
+      border-color: blue transparent transparent blue;
+  }
+
+  .balao4::after {
+    content: "";
+   display: block;
+    position: absolute;
+   margin-top: 20px;
+      border: 20px solid;
+      border-color: #0000ff transparent transparent transparent;
+  }
+
+  .balao5::after {
+    content: "";
+    display: inline-block;/*fazer a seta ir para o canto direito*/
+    position: absolute;
+    margin-left: 20px;
+    top: 25px;
+    border: 20px solid;
+    border-color: transparent transparent transparent #0000ff;
+  }

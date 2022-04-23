@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>INPUT.TYPE.HIDEN</title>
+        <link rel="stylesheet" href="estilo.input.hidden.css"/>
+    </head>
+    <body>
+        <form action="" method="get">
+            <input type="hidden" name="country" value="BR"><!--o hidden é um campo interno que nao aparece para o usuario mais quando a informaçao é enviada ela vai com uma identificaçao do usuario para o banco de dados.-->
+            <fieldset>
+                <legend>DADOS PESSOAIS</legend>
+                <label>
+                    Primeiro Nome:
+                    <br/>
+                    <input type="text" name="nome">
+                </label>
+                <br/>
+                <label>
+                    Sobrenome:
+                    <br/>
+                    <input type="text" name="sobrenome">
+                </label>
+                <br/>
+                <label>
+                    E-mail:
+                    <br/>
+                    <input type="email" name="e-mail">
+                </label>
+                <br/>
+                <label>
+                    Data de Nascimento:
+                    <br/>
+                    <input type="date" name="data_nascimento">
+                </label>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>DADOS PROFISSIONAIS</legend>
+                <label>
+                    Nome da Empresa:
+                    <br/>
+                    <input type="text" name="nome_empresa">
+                </label>
+                <br/>
+                <label>
+                    Cargo na Empresa:
+                    <br/>
+                    <input type="text" name="cargo_empresa">
+                </label>
+            </fieldset>
+            <input type="submit" name="enviar" id="">
+        </form>
+    </body>
+</html>

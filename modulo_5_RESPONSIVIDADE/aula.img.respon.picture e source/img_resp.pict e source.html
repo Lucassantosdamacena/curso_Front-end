@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Pagina</title>
+        <link rel="stylesheet" href="estilo.img_resp.pict e source.css"/>
+    </head>
+    <body>
+      <picture><!--A tag picture, junto com a tag source, auxilia na responsividade das imagens. o midia será as condiçoes minimas para que seja exibido tal imagem-->
+        <source media="(min-width: 650px)" srcset="img2.png"/>
+        <source media="(min-width: 450px)" srcset="img3.png"/>
+        <img src="img1.jpg" alt=""/>
+      </picture>
+    </body>
+</html>

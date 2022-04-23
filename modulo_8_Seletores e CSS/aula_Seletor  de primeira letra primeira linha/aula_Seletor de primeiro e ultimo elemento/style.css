@@ -1,0 +1,12 @@
+/*para selecionar a primeira letra de um texto */
+p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*para selecionar a primeira linha do texto*/
+p::first-line{
+    background-color: yellow;
+}
+
+/*A propriedade first-letter seleciona qual parte do texto no CSS?A primeira letra.*/

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+    font-size: 27px;
+}
+/*para estilizar o placeholder*/
+.input::placeholder {
+    color: green;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+/*Das alternativas abaixo, qual a propriedade utilizada para alterar estilo do placeholder em todos os navegadores modernos ?
+.input::placeholder { }*/

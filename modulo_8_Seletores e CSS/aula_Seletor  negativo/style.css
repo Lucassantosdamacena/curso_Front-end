@@ -1,0 +1,15 @@
+/*selecionar todos os elementos menos os que for especificado*/
+
+
+
+/*para eliminar um item da seleçao ou faxzer com que ele não receba um efito*/
+/*:not(p){
+    background-color: #ff0000;
+}nesse caso a tela ficará vermelha por que o body tambem receberá o efito padrão para tinar o body*/
+
+/*para tirar o body e o p*/
+body :not(p){
+    background-color: #ff0000;
+}
+
+/*Qual a escrita (sintaxe) para quando eu desejar utilizar um seletor negativo em minha aplicação? ::not() {}.*/

@@ -1,0 +1,9 @@
+img{
+    width: max(50%, 300px);
+}
+/*A função min e max, no CSS:
+Auxilia na responsividade da aplicação, estabelecendo limites de largura e altura no conteúdo.
+
+Ela pode controlar o tamanho de imagens e fontes como elas irão aparecer.
+
+Ela pode controlar o tamanho de um input em um formulário.*/

@@ -1,0 +1,24 @@
+/*para inserir imagem como bakgraunde da tela inteira ou seja um fundo para o site ou pagina*/
+body{
+    background-image: url('imagem/img1-1.jpg');
+    background-size: cover;/*para ela cobrir todo espaço da tela diminuindo ou aumentando de acordo com a mesma*/
+    background-position: center;/*posiçao da imagem*/
+}
+
+
+/*para especificar uma cor e uma transparencia RGBA que vai de zer0 a duzentos e cinquenta e cinco(0,0,0) a (255,255,255) o A é a transparencia da cor que sai de 0 a 1*/
+div{
+    background-color:rgba(255,0,0,0.5);
+    width: 300px;
+    height: 300px;
+
+}
+/*para colar uma div em todos os lados
+position:fixed;
+left:0;
+right:0;
+top:0;
+bottom:0;*/
+
+
+/*O RGBA é uma opção alternativa para estilização no CSS. Nessa função, o último parâmetro, dos quatro existentes nela, seria: A porcentagem de transparência que a imagem irá ter.*/

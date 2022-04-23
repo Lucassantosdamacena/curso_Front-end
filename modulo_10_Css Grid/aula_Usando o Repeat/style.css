@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr) 200px;/*o comando repeat serve para repertir um determinado valor mas nao necessáriamente pode especificar somente um valor para ser repetido pode ser colocado para ser repetido mais de um valor,so será repetido os valores dentro do parenteses, podendo colocar valores antes ou depoi do repeat, pode colocar mais de um repeat também. Para color uma quantida de coluna automatica usa-se (auto-fill, 300px) se tiver somente o tamanho das colunas mas não a quantidade.*/
+    gap: 20px;
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+/*Nas propriedades grid-template-columns e grid-template-rows, para simplificar o comando a seguir, por exemplo: grid-template-rows: 100px 100px 100px, podemos utilizar:
+
+1grid-template-rows: repeat(3, 100px).*/

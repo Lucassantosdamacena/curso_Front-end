@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+fieldset{
+    background-color: #EEE;/*cor de fundo do campo fieldset*/
+    margin-bottom: 20PX;/*para o campo descer 20px*/
+    border: 2PX solid #FF0000;/*bordas do campo*/
+}
+legend{
+    background-color: #FF0000;
+    color: #FFF;/*cor da letra da legenda*/
+    padding: 5PX;/*espaço da letra da legenda*/
+}

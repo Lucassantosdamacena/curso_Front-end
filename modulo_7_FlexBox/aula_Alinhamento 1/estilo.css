@@ -1,0 +1,160 @@
+.container{
+    display: flex;
+    /*flex-flow: row wrap;*/    /*para liberar o alinhamento dos itens para ele se alinhar embaixo do outro quando for preciso*/
+    flex-flow: row wrap;/*ela permite defini tanto o flex direction quanto o wrap, consegui especificar dua coisas ao mesmo tempo como alinhamento row ou column, e wrap*/
+    background-color: #dddddd;
+}
+.container div{
+    
+    width: 200px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*para centralizar uma div no meio do container*/
+.container2{
+    display: flex;
+    justify-content: center;/*ela vai dizer o que vai acontecer com o conteudo que estar dentro do container,mas em alinhamento horizontal, e nela tem algumas opçoews como center o conteudo ficara no meio do container,  */
+    align-items: center;/*ela faz um alinhamento vertical do itens dentro do container, ou seja alinha mento na coluna,center centralizado, flex-start no inicio,flex-end no final.*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container2 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/*para centralizar uma div no inicio do container3*/
+.container3{
+    display: flex;
+    flex-direction: column;/*para alinhar os itens em colunas ou horizontal*/
+    justify-content: center;/*nesse caso o justify-content vai alinha na coluna, porque os itens está alinhado em coluna.se os itens tiver alinhado em linha ou horizontal será alinha na mesma.*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container3 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/*para centralizar uma div no meio do container4 em colunas*/
+.container4{
+    display: flex;
+    flex-direction: column;/*para alinhar os itens em colunas ou horizontal*/
+    justify-content: center;/*nesse caso o justify-content vai alinha na coluna, porque os itens está alinhado em coluna.se os itens tiver alinhado em linha ou horizontal será alinha na mesma.*/
+    align-items: center;/*os itens será alinhado ecm colunas centraçizada*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container4 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+/*para centralizar uma div no inicio do container5*/
+.container5{
+    display: flex;
+    flex-direction: row;/*para mudar a ordem de exibiçao uasr reverse*/
+    justify-content: flex-start;/*para ficar no inicio do felx ,do alinhamento*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container5 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+/*para centralizar uma div no final do container6*/
+.container6{
+    display: flex;
+    flex-direction: row;/*para mudar a ordem de exibiçao uasr reverse*/
+    justify-content: flex-end;/*para ficar no final do fles do alinhamento horizontal*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container6 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+/*para centralizar uma div no meio do container7 mas separadas*/
+.container7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;/* vai ficar alinhada na horizontal mas com um espaço entre elas,para mudar para colunas no lugar do row colocar column*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container7 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+/*para centralizar uma div no meio do container8 e uma no inico e outra no final*/
+.container8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;/*fica uma no ini uma no meio e uma no final, do alinhamento horizontal. seprada por um espaço*/
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.container8 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*todas essas alterçaoes pode ser usadas com align-itens..para ser alinhadas em colunas emtre centro, flex-star,flex-end*/
+
+
+
+/*Para alinharmos os itens de uma div ao final de uma página, devemos utilizar a propriedade: justify-content: flex-end.*/

@@ -1,0 +1,23 @@
+body{
+    display: flex;/**/
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000;
+}
+/*para que em determinada condiçoes sa caixas fiquem determinada posiçao*/
+@media (orientation:landscape){/*orientation e para defini a orientaçao da tela.landscape é para se a tela estiver basicamente na horizontal ou deitado será aplicado tal definição*/
+    body{
+        flex-direction: row;
+    }
+}
+@media (orientation:portrait){/*portrait e para quando a tela estiver na vertical, ou seja tela empé,*/
+    body{
+        flex-direction: column;
+    }
+}
+/*OBS: o orientation do media nao trabalha com a posição real do aparelho, ele detecta os tamanhos da tela.*/
+
+/*Qual a função da propriedade Orientation no @media do CSS?Verificar se a tela está horizontal ou vertical.*/

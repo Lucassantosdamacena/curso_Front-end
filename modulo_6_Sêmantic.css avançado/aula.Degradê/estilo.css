@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background-color: #ff0000;
+    background:linear-gradient(yellow,blue);
+
+}
+
+.exemplo2{
+    width: 500px;
+    height: 200px;
+    background-color: #ff0000;
+    background:linear-gradient(-75deg,yellow,blue);
+    
+}
+.exemplo3{
+    width: 500px;
+    height: 200px;
+    background-color: #ff0000;
+    background:linear-gradient(90deg,yellow,red,orange,blue);
+    
+}
+/*O degradê, no CSS, é utilizado com qual propriedade no CSS?
+linear-gradient.*/

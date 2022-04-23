@@ -1,0 +1,46 @@
+body{
+    background-color: #000;
+}
+.container{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5;
+}
+.container div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div10{
+    align-self: flex-start;/*o alinhamento desse item será o que for definido dentro do align-self que serve pra sobreescrever o align-itens do container, que pode ser: flex estart,flex-end, center, */
+    /*para mudar a ordem de um item: order: 1; ou qual quer outra as demais sempre fiacará com order zero a menos que defina uma ordem para elas,para colocar um item antes deles deve ser um numeros menor que zero tipo -1*/
+}
+
+/*exemplo 2*/
+.container2{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;/*para deixar os itens em mais de uma linha ou mais de uma coluna´para quando nao couber mais dentro do container eles possam descer e formar outra linha ou coluna.*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5;
+    align-content: space-between;/*usado quando tem wrap, quando se sabe que o conteudo irá cair, usado para especificar o alinhamento que se quer para todo o conteudo, center,flex end,flex start, também pode usar o space-between ou space-around*/
+}
+.container2 div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*Qual a propriedade que utilizamos para alinhar todo conteúdo de uma div, no CSS3? align-content.*/

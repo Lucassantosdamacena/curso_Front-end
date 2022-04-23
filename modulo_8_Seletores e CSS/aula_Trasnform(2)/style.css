@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0,0,0,0.5);
+}
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: rotate(30deg);/*para aplicar um efeito geometrico em um elemento scale() e a escala do elemento e ela tem varias outras escalas ela trababalha com os eixo x e y, rotate() e suas variaçoes, basicamente é o angulo de rotaçao do elemento em graus depois de especiifca o angulo de roatção deve ter deg, e sempre irá girar no sentido horario,se colocar menos o grau sera girardo em ant-horario, skew() serve para distorcer o elento em angulo na vertical ou orizontal ou os dois e os dois angulos separdos por virgula, */
+
+}
+
+/*Para qual finalidade é utilizado o transform no CSS3? Para inclinar, rotacionar e posicionar os objetos de diversas formas.*/
+
+/**/
+

@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(100px, 1fr));
+    grid-template-rows: minmax(100px, 300px);/*minmax serve para definir um tamanho minimo e um a tamanho maximo, se colocar um minmax(50px, auto) um tamanho minimo fixo e um maximo atomático ele também fuinciona e recomendado para textos. o minmax pode ser usado em outras propriedades. como por exemplo: grid-template-columns: repeat(3, minmax(100px, 300px));*/
+    gap: 20px;
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+/*Para que serve a função minmax no css grid ?
+
+Serve para calcular o valor mínimo e máximo do tamanho de um elemento.*/

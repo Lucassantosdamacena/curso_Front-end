@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 17px;
+}
+.tarja{
+    height: 300px;
+    width: 200px;
+    transform: rotate(-45deg);
+    text-align: center;
+}
+.faixa{
+    font-size: 18PX;
+    background-color: #0000cd;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #ff0000;
+    padding: 20px;
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 1px 3px 0px #0000cd;
+    text-shadow: 5px 5px 5px #000;
+}

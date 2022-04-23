@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>VALIDAÇÕES NATIVAS</title>
+        <link rel="stylesheet" href="estilo.validaçoes.css"/>
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend>DADOS PESSOAIS</legend>
+                <label>
+                    Primeiro Nome:
+                    <br/>
+                    <input type="text" name="nome" required minlength="2" maxlength="10"><!--requered torna o campo obrigatorio, minlength o tamanho minimo do texto,maxlenght o tamanho maximo do texto, sempre é importante usar oas tres. essa e a forma nativa de usar a validaçao mas da pra usar outra validaçao usando o javascript.-->
+                </label>
+                <br/>
+                <label>
+                    Sobrenome:
+                    <br/>
+                    <input type="text" name="sobrenome"/>
+                </label>
+                <br/>
+                <label>
+                    Idade:
+                    <br/>
+                    <input type="number" name="idade" min="18" max="100" step="2" /><!--o min indica a idade minima e o maximo a idade maxima, o step indica quantos numeros deve ser pulado ao escolhe um numero.pattern="" geralmente uasdo para validar um email, e deve ser especificado os caracteres que o email deverá ter.-->
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>DADOS PROFISSIONAIS</legend>
+                <label>
+                    Nome da Empresa:
+                    <br/>
+                    <input type="text" name="nome_da_empresa"/>
+                </label>
+                <br/>
+                <label>
+                    Cargo na Empresa:
+                    <br/>
+                    <input type="text" name="cargo_na_empresa"/>
+                </label>
+            </fieldset>
+            <input type="submit" value="enviar"/>
+        </form>
+    </body>
+</html>

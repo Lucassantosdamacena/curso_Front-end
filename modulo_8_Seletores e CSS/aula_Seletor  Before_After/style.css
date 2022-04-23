@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+
+
+
+span::before {
+    content:"->";
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+/*Do que se trata o Seletor Before/After ?Modo de seleção de elementos, o qual realiza as alterações depois ou antes do elemento principal selecionado.*/
+span::after {
+    content:"<-";
+    background-color: red;
+    border: 1px solid black;
+}
+
+/*para aplicar um efeito em um contente vazio*/
+span::after {
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid black;
+}

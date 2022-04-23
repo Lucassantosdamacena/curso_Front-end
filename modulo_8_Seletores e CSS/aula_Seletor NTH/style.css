@@ -1,0 +1,10 @@
+/*para fezer uma seleção por ordenaçao com nth, no css sempre começa do 1*/
+div:nth-child(2) {
+    background-color: #ff0000;
+}
+/*para selecionar de baixo pra cima*/
+div:nth-last-child(3) {
+    background-color: #ff0000;
+}
+
+/*Qual das alternativas a seguir apresenta um modo de seletor NTH corretamente ? Elemento de exemplo: div:nth-child(2) { }*/

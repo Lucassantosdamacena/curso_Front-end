@@ -1,0 +1,29 @@
+@keyframes exemplo {
+    0%{background-color:red;top:0px;left:0px;}
+    25%{background-color:yellow;top:0px;left:250px;border-top-left-radius: 100px;}
+    50%{background-color:blue;top:250px;left:250px;border-top-right-radius: 100px;}
+    75%{background-color:green;top:250px;left:0px;border-bottom-left-radius: 100px;}
+    100%{background-color:red;top:0px;left:0px;border-radius: 75px;}
+}
+
+body{
+    margin: 0;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin:100px;
+    position:absolute;/*para o objeto ficar flutuante*/
+    animation-name: exemplo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    box-shadow:10px 10px 5px #888888;/*box-shadow para criar sombra em um elemento, o primeiro valor é a distancia da sombra horizontalmente pro lado, o segundo valor é a distancia na vertical pra baixo,
+    o terceiro valor é o da quantiodade de espalhamento da sombra etc...,por ultimo é a cor*/
+}
+h1{
+    color: green;
+    margin-left: 100px;
+    text-shadow: 2px 2px 3px #888888;/*para criar sombra em um texto.*/
+}

@@ -1,0 +1,25 @@
+div{
+    background-color:#0000ff;
+    width: 100px;
+    height: 100px;
+}
+
+/*para selecionar o primeiro elemento ou elemento*/
+div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*para selecionar o ultimo elemento*/
+div:last-child{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*obs se na funcionar usar um id ou classe nesse exemplo esta funcionando com id*/
+#ultimo{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/*O seletor first-child selecionará o primeiro elemento da ocorrência.O seletor last-child selecionará o último elemento da ocorrência.O seletor last-child aplicará os estilos necessários ao último elemento da ocorrência.*/

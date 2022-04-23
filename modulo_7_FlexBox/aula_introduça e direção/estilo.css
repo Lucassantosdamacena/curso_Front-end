@@ -1,0 +1,102 @@
+.container{
+    display: flex;/*significa que o bloco ou container se tronarár felxivel e adpatavel cada um com sua regra, dentro do display existe as propriedades: none para nao mostrar o container ou div, block para mostrar, inline para ficar um do lado do outro, inline-block , varios outros, flex que quando ativa quer dizer que dentro dele terá a tecnologia do flexbox,e automaticamente os itens ficará um ao lado outro, */
+    flex-direction: row;/*para especificar adireção da organização dos itens, por padrao vem na horizontal:row é a padrao, colum a exibiçao será através de coluna,row3-reverse em forma de linha mas ao contrario, colum-reverse em forma de coluna mas ao contrario,  */
+    background-color: #dddddd;
+    margin: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    margin: 10px;
+}
+.container div,
+.container2 div{
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*outros exemplos*/
+.container3{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    margin: 10px;
+}
+.container3 div{
+    flex: 1;/*flex basicamente será para os intens ficar na horizontal ou linha: e o numero é para especificar o espaço que será divido se é 1,2,3,4 etc...*/
+    margin: 10px;
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    background-color: #4fd65a;
+    margin: 10px;
+}
+.container4 div{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px
+}
+/*se dentro do flex tiver varias divs dentro do mesmo grupo o espaço será dividientre eles, cada flex es especifico por grupo.1.2.3.4.5 etc...*/
+.div1{
+    flex: 1;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.div2{
+    flex: 1;
+    background-color: #ff0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.div3{
+    flex: 2;/*dessa forma esse itém será maior que os outros itém ocupara o dobro de espaço dos outro iténs*/
+    background-color: #ff00aa;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.div4{
+    flex: 3;/*dessa forma esse itém será maior que os outros itém ocupara o triplo de espaço dos outro iténs*/
+    background-color: #00d9ff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*funciona na horizontal e na vertical*/
+
+/*Para deixarmos todos os itens de uma div em formato de coluna, devemos usar qual atributo para o flex-direction, no CSS3?
+column.*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*forma menos eficiente*/
+/*
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    margin: 10px;
+    float:left;
+}
+float:left; para deixar os intens lado a lado na horinzontal mas so funciona em tamanhos iguais*/

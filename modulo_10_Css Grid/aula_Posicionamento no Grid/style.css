@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    height: 700px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    justify-content: center;/*para dar uma posiçao para os itens do container. e pode ser star_padrao, center, end, space-araund, e espace- between.*/
+    align-content: center;/*para alinhar os itens no container ou no bloco pai,que pode ser posiçoes como start,center,end*/
+
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+/*Qual comando, a seguir, é utilizado para modificação de posicionamento do elemento no container via css grid ?
+
+justify-content;
+*/

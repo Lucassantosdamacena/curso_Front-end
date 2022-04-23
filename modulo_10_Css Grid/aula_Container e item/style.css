@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;/*para especificar que o container  usará grid em sua estrutura de layault,o grid tem varias espacificaçoes como inline-grid, sub-grid, etc...*/
+    grid-template-columns: repeat(3, 1fr);
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}

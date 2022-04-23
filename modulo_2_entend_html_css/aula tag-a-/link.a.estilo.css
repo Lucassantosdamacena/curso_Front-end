@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.link{
+    color: green;
+    font-size: 30px;
+
+}
+/*para criar um estado especifico do elemento*/
+/*para quando o mouse estiver encima do elemento usar a tag :hover sempre que o mouse estiver sobre o elemento será executaado aquelas definições*/
+.link:hover{
+    color: red;
+
+}
+/*link que ja foi acessado pelo navegador */
+.link:visited{
+    color: pink;
+}

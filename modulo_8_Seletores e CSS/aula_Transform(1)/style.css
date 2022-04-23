@@ -1,0 +1,10 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: scale();/*para aplicar um efeito geometrico em um elemento scale() e a escala do elemento e ela tem varias outras escalas ela trababalha com os eixo x e y, */
+
+}
+
+/*Para qual finalidade é utilizado o transform no CSS3? Para inclinar, rotacionar e posicionar os objetos de diversas formas.*/

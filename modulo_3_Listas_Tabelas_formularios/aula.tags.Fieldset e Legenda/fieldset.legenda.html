@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>FIELDSET E LEGENDA</title>
+        <link rel="stylesheet" href="estilo.fieldset.legenda.css"/>
+    </head>
+    <body>
+        <form method="post"><!--PARA CRIAR A AREA DE FORMULARIO-->
+            <fieldset><!--PARA separar cada area do formulario-->
+                <legend>DADOS PESSOAIS</legend><!--para criar uma legenda ou um nome para a area que esta separada pelo fieldset-->
+                <label>
+                    Primeiro Nome:
+                    <br/>
+                    <input type="text" name="name"/>
+                </label>
+                <br/>
+                <label>
+                    Sobrenome Nome:
+                    <br/>
+                    <input type="text" name="lastname"/>
+                </label>
+            </fieldset> 
+            <br/>
+            <fieldset><!--PARA CRIAR A AREA DE FORMULARIO-->
+                <legend>DADOS PROFISSIONAIS</legend><!--para criar uma legenda ou um nome para a area que esta separada pelo fieldset-->
+                <label>
+                    Nome da Empresa:
+                    <br/>
+                    <input type="text" name="companyname"/>
+                </label>
+                <br/>
+                <label>
+                    Cargo na Empresa:
+                    <br/>
+                    <input type="text" name="companyjobtitle"/>
+                </label>
+            </fieldset>
+            <br/>
+            <input type="submit" value="cadastrar"/>
+        </form>
+    </body>
+</html>

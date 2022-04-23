@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+#teste{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid #000;
+    background-color: #ff0000;
+    border-top-left-radius: 20px;/*vai arredondar somente a borda da esquerda do lado de cima.*/
+    border-top-right-radius: 40px;/*bora da diretita do lado de cima*/
+    border-bottom-left-radius: 60px;/*borda da esquerda do lado de baixo*/
+    border-bottom-right-radius: 70px;/*borda da direita do lado de baixo*/
+}

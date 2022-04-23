@@ -1,0 +1,12 @@
+div{
+    margin: 20px;
+    padding: 30px;
+}
+
+/*para selecionar um elemento que está vazio*/
+div:empty {
+    background-color: #ff0000;
+}
+/*para descartar o item usar display:none;*/
+
+/*Qual forma, a seguir, esta correta em relação a seleção de elementos que estejam vazios? Exemplo de elemento div:empty { }*/

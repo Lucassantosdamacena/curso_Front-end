@@ -1,0 +1,19 @@
+:root{/*o root é para criar variaveis que seja validas para todos os documentos, se a variavel for criada dentro de uma tag ela so valerá para aquela tag especifica.*/
+    --bg-color: #000;/*para criar uma variavel inicia por -- e coloca o nome que quizer.*/
+    --bg-second: #444;
+    --font-color: #fff;
+}
+
+body{
+    background-color: var(--bg-color);/*para usar uma variavel basta ir aonde quer a digitar var e dentro do parenteses digitar o nome da variavel que se quer.*/
+}
+h1{
+    color: var(--font-color, #ff0000);/*se por precausao quiser colocar uma cor secundaria para que se alguem escluir a variavel, ela nao fique com a cor padrao do navegador, basta colocar dentro dos parentes no final da variavela uma virgula e a cor que quiser.*/
+}
+.container{
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+/*a vantagem das variaveis é que se precisar mudar uma cor de um determinado objeto basta mudar na propria variavel e sera alterada em todo o projeto aquela cor.*/
+
+/**/

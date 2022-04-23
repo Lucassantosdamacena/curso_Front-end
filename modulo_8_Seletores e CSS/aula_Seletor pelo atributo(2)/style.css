@@ -1,0 +1,27 @@
+input,a{
+    display: block;/*para todos ficarem um abaixo do outro*/
+}
+
+/*para fazer uma seleção através do conteúdo ou texto do href*/
+
+/*para selecionar itens que começam com determinado valor,obs para nao sobreescrever os demais itens basta colocar o codigo acima dos demais fazendo assim o efeito cascata*/
+a[href^="https:"]{
+    background-color: #0000ff;
+}
+/**/
+a[href^="http:"]{
+    background-color: #0f0f0f;
+}
+
+/*para fazer uma sleçao pelo link do href e filtrar uma palavra do link*/
+a[href*="tudo-sobre"]{
+    background-color: #ff0000;
+}
+
+/*para fazer uma seleção baseada no fim e não no começo*/
+a[href$="html"]{
+    background-color: #123456;
+}
+
+
+/*Qual alternativa está correta no modo de selecionar um elemento, através da primeira palavra, o qual compõe o atributo ?[atributo^="Olá"] { }*/

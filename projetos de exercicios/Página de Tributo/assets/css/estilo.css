@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    background-color: #ffff00;
+}
+.container{
+    width: 600px;
+    height: 800pxd;
+    margin: 0px auto 0px auto;
+    border: 10px solid #191970;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000000;
+
+}
+
+h2,
+.foto_inicio{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5d5;
+    border:5px solid #A0522D;
+}
+.foto_inicio img{
+    border: 5px solid #2e8b57;
+}
+
+.texto{
+    border: 4px solid #000000;
+    margin: 30px;
+    background-color: #cd5c5c;
+
+}
+
+.rodape_texto{
+    display: flex;
+    justify-content: center; 
+}
+footer{
+    background-color: #696969;
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+    border: 5px solid #000000;
+}
+.rodape_texto i{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #191970;
+    
+}
+q{
+    color: #000000;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}

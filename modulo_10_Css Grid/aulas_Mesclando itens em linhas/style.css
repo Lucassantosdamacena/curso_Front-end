@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+.item1 {
+    grid-column-start: 1;/*aonde vai começar a coluna*/
+    grid-column-end: 4;/*aonde vai terminar a coluna*/
+}
+.item3 {
+    grid-column-start: 2;/*coluna que ele vai iniciar*/
+    grid-column-end: 4;/*coluna que ele terminará*/
+
+    grid-row-start: 2;/*de qual linha imaginária vai começar*/
+    grid-row-end: 5;/*em qual linha imaginária vai terminar*/
+
+}
+.item8 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+/*Utilizando a propriedade grid-column-end, ao mesclar itens, você está definindo:
+Onde a coluna terminará.
+*/
+
+/*Utilizando a propriedade grid-row-end, ao mesclar itens, você está definindo:
+Onde a linha terminará.
+*/

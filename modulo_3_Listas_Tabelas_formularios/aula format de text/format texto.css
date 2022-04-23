@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+p{
+    color: #0000ff;
+    font-size: 30px;/*para aumentar o tamanho da letra*/
+    font-weight: bold;/*para mudar o estilo da letra, bold negrito;normal padrão,*/
+    font-family: Arial;/*para trocar o tipo da fonte */
+    text-align: left;/*alinhamento do texto left padrao alinhado a esquerda, center alinhado no meio, right alinhado a direita. justify texto justificado*/
+    line-height: 35px;/*altura da linha do texto,dar um espaçamento maior entre as linhas*/
+}
+a{
+   text-decoration: none;/*para que o texto nao fique com decoraçao none sem decorçao, overline em link sera encima do texto, line-through traço no meio do link.pode ser aplicado a qualquer tipo de texto.*/
+}
+a:hover{/*para quando passar o mouse sobre o link ser apresentado um sublinhamento no texto*/
+    text-decoration: underline;
+}
+
+
+
+.outras_anotaçoes{
+    text-transform: uppercase;/*para deixar o texto em letras maiusculas em caixa alta uppercase, lowercase letras minusculas*/
+    letter-spacing: 5px;/*espaçamento entre as letras */
+    word-spacing: 5px;/*espaçamento entre uma palavra e outra*/
+    line-height: 5px;/*altura da linha do texto,dar um espaçamento maior entre as linhas*/
+    text-shadow: 5px/*a distancia pra direita da sombra*/10px/*o quão pra baixo vai a sombra*/3px/*espaço de esfumaçamento da cor*/#000000/*cor da sobra*/;/*pra colocar uma sombra no texto ou palavra,*/
+
+}

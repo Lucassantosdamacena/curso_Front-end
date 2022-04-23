@@ -1,0 +1,25 @@
+:root{
+    --bg-color: #000;
+    --bg-second: #444;
+    --font-color: #fff;
+    --font-size:25px;/*variavel que será trocada o valor*/
+}
+
+body{
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+h1{
+    color: var(--font-color, #ff0000);
+}
+.container{
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+@media (max-width:450px) {/*quando diminuir o tamanho da tela a variavela sera alterada o seu valor, e dessa forma irá mudar aonde precisa ser mudado.*/
+    :root {
+        --font-size:15px;
+    }
+}
+
+/*Qual a maneira correta de modificar uma variável de acodo com o media query no css?Iniciamos um novo :root dentro do @media e colocamos a variável e o valor de acordo com o que queremos para aquele @media.*/

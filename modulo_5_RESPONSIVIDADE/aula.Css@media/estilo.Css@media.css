@@ -1,0 +1,29 @@
+body{
+    background-color: #00fc3fa8;
+}
+/*para fazer que em determinada resoluçao de tela o site passe a usar tal configiraçao escolhida para aquela tela*/
+@media(min-width:1000px) {/*quando a tela tiver 1000px pra cima executará essas configuraçoes*/
+    body{
+         background-color: #0000ff;
+    }
+}
+@media (min-width:700px) and (max-width:999px) {/*quando a tela for entre o minimo de 700ox e no maximo 999px exutara essa configuçao entre 700 e 999 será essa configuraçao*/
+    body{
+        background-color: purple;
+    }
+}
+@media (min-width:300px) and (max-width:700px) {
+    body{
+        background-color: #566b2f;
+    }
+}
+
+@media (max-width: 600px) {/*para telas de no maximo 600px será essas configuraçoes.tudo abaixo de 600 tera essa configuraçao.*/
+
+    body {
+        background-color: #ff0000;
+    }
+    h1{
+        font-size: 15px;
+    }
+}

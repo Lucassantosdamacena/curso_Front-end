@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;/*object-fit vai redimencionar a imagem as opções: fill e a opçao padrao, contain diminui a imagem sem distorçao, cover mantem a proórça da imagem mas corta ela e fica centralizada no meio da imagem ela é a mais usada, none mantem a imagem do tamanho original mas corta sem redimencionar, sacale-daw é a mesma coisa do contain*/
+}
+
+/*Se eu tenho uma área que possua 200px de largura por 400px de altura, ao utilizar a propriedade object-fit: cover:A imagem será recortada para aparecer somente nesse intervalo de tamanho.*/

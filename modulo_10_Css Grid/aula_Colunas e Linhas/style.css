@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;/*para especificar que o container  usará grid em sua estrutura de layault,o grid tem varias espacificaçoes como inline-grid, sub-grid, etc...*/
+    grid-template-columns: auto 200px 100px ;/*especifica quantas colunas vao ter no grid, e o tamanho de cada uma, se quiser por exemplo repetir quatro colunas deve especificar o tamanho da cada uma :100px 200px 300px 400px, e em uma linha terá quatro colunas com o tamnho escolhido.pode colocr mais de quatro colunas. também pode deixar as colunas flexiveís ou automaticas usando: auto auto auto auto; quantas vezes for necessarias. também pode varia colocar automatica e fixas ao mesmo tempo.*/
+
+
+    grid-template-rows: 100px 200px 300px 50px;/*especificas linhas basicamente a altura da linha, podendo definir uma altura para cada linha por: 100px 200px 300px 50px;. também pode especificar quantas linhas forem necessarias*/
+    gap: 10px;
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+/*Das alternativas a seguir, qual comando é utilizado para modificação do elemento por colunas via css grid?   grid-template-colums;*/

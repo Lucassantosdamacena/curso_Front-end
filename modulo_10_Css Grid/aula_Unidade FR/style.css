@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+
+    display: grid;
+    grid-template-columns: 4fr 2fr;/*unidade fr so funcionar no grid, ela representa fração ou seja uma fraçao do spaço do grid, ele pode modificar o tamanho das colunas, e pode colocar tamanhos diferentes em cada coluna, entre dobro triplo e etc.. do tamanho... tabem pode especificar um width com tamanhos fixos e pode dobrar o tamanho de cada coluna e todas será responsivas.*/
+    grid-template-rows: ;
+    gap: 10px;
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+
+}
+/*Qual das alternativas a seguir mostra um diferencial da unidade FR?  Unidade criada para ser utilizada apenas no css grid. */

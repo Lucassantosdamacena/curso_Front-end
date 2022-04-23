@@ -1,0 +1,23 @@
+/*para deixar o video responsivo*/
+
+.video{/*container do video*/
+    width: 100%px;/*largura*/
+    max-width: 100%;
+    margin: auto;/*para o video ficar centralizado*/
+}
+.video-area{/*area do video dentro do cantainer*/
+    position: relative;
+    height: 0px;/*altura*/
+    background-color: #ccc;
+    padding: 0px 0px 56.25%;/*porcentagem de proporçao entre a largura e a altura*/
+}
+.video-area iframe{/*iframe dentro do video area, para ele pagar toda a area disponivel dentro do video area*/ 
+    position: absolute;
+    top: 0px;/*topo ou encima*/
+    bottom: 0px;/*inferior ou baixo*/
+    left: 0px;/*esquerda*/
+    width: 100%;/*largura*/
+    height: 100%;/*altura*/
+    border: 0px;/*bordas*/
+}
+/*Qual propriedade do css alteramos para deixar a altura relativa a largura de um elemento?    padding;*/

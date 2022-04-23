@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+fieldset{
+    background-color: #EEE;
+    border: 2PX solid #FF0000;
+    margin-bottom: 20PX;
+}
+legend{
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}

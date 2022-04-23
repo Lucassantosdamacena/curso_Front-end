@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;/*para especificar que o container  usará grid em sua estrutura de layault,o grid tem varias espacificaçoes como inline-grid, sub-grid, etc...*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px; /*para dar um espaço entre uma coluna e outra na hotizontal,ou seja ao lado da lina ou coluna*/
+    grid-row-gap: 10px; /*para da um espaçamenro na vertical, ou seja embaixo da linha, ou coluna*/
+
+
+    grid-gap: 20px 20px;/*define tanto a vertical quando a horinzontal,,embaixo e ao lado da coluna*/
+
+    gap: 30px 25px;/*forma abreviada e atualizada se colocar apenas um valor ficaará o mesmo para os dois lados*/
+}
+.item {
+    background-color: #000fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*O que significa o gaps no css grid?    Modo de separação entre itens no layout.*/

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULÁRIO</title>
+        <link rel="stylesheet" href="estilo.formulario.css">
+    </head>
+    <body>
+        <!--todo formulario deve ser criado um grupo porque em uma pagina pode conter mais de um formulario-->
+        <form action="login.html" method="get"><!--para criar um formulario o atributo action especifica o arquivo, a url que será enviado as informaçoes do usuario, method="" é basicamente o metod de envio das informações existem dois tipos GET e o POST get informçoes fica visiveis na url e o post as informaçoes ficam oculta-->
+            <h1>Area de login</h1>
+            <input type="submit" name="usuario" value="enviar" />
+
+        </form>
+        <form action="cadastro.html" method="get"><!--para criar um formulario -->
+            <h1>Area de Cadastro</h1>
+            <input type="text" name="usuario" value="123"/><!--input cria uama interação com usuario o atributo type="" define o tipo do input que pode ser texto para digitar texto, password senha,checkbox marcar e desmarca,radio precisa de mais de um e precia de um name="" sendo o mesmo em ambos, submit que é o botão de envio do formulario, e-mail,tel,...name=""nome do input ao ser enviado, value="" definir um valor de exibição dentro do input pre preenchido. -->
+            <br/><br/>
+            <input type="email" name="usuario" value=""/>
+            <br/><br/>
+            <input type="password" name="usuario" value=""/>
+            <br/><br/>
+            <input type="checkbox" name="usuario" value=""/>
+            <br/><br/>
+            <input type="radio" name="usuario" value=""/>
+            <br/><br/>
+            <input type="radio" name="usuario" value=""/>
+            <br/><br/>
+            <input type="submit" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="color" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="date" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="datetime-local" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="month" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="number" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="range" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="search" name="usuario" value="" />
+            <br/><br/>
+            <input type="time" name="usuario" value="enviar" />
+            <br/><br/>
+            <input type="url" name="usuario" value="" />
+            <br/><br/>
+            <input type="week" name="usuario" value="" />
+            <!--outras propriedades do tipo de input,color para selecionar uma cor, date campo com data e calendario,datetime-local campo com data calendario e tempo hora,month somente o mes e ano,number digitar somente numeros, range de tanto a tanto,seach variaçao de text,tel aceitar somente telefone,time somente a hora,url adicionar um link,week semana ano e mes, -->
+
+        </form>
+        <form action="">
+            <h1>outro tipos de interaçao com usuario que pod ficar dentro do formulario</h1>
+            <!-- o-->
+            <select name="ordenaçao" id=""><!--o select cria uma opçao de escolha para o usuario, para que o usuario possa selecionar mais de um item dentro de select usar size="" e colocar o numero de seleçoes disponiveis e multiple fora das aspas-->
+                <option>item 1</option><!--o option faz aparecer as opçoes par o usuario,para mudar o valor de envio basta usar value="" dentro de option e colocar o valor que quiser,para colocar um item selecionado por padrão usa o selected--->
+                <option value="teste">item 2</option>
+                <option selected>item 3</option>
+                <option>item 4</option>
+                <option>item 5</option>
+            </select>
+        </form>
+    </body>
+</html>

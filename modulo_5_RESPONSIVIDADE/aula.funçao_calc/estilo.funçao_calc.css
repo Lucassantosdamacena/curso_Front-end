@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+.container{
+    width: calc(100% - 20px);/*para o css pegar o tamanho total da tela e subtrair 20px dela e manter o espaço  de largura no que sobrar. pode ser usado tanto porcentagem quanto px..*/
+    height: 200px;
+    background-color: #ccc;
+}
